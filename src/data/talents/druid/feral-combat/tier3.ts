@@ -13,7 +13,7 @@ const tier3 = [
     [
       [15, 30],
       [2, 4],
-    ]
+    ],
   ),
   new Talent(
     "Feral Charge",
@@ -28,7 +28,7 @@ const tier3 = [
     "5 Rage",
     "8 - 25 yd range",
     "Instant cast",
-    "15 sec cooldown"
+    "15 sec cooldown",
   ),
   new Talent(
     "Sharpened Claws",
@@ -45,9 +45,26 @@ const tier3 = [
     null,
     null,
     null,
-    ["D1"]
+    ["D1"],
   ),
-  null,
+  new Talent(
+    "Improved Tiger’s Fury",
+    "ability_mount_jungletiger",
+    ["Your Tiger’s Fury also generates ", " rage or ", " energy when used."],
+    2,
+    [
+      [7, 15],
+      [20, 40],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false },
+  ),
 ];
 
 export default tier3;

@@ -1,0 +1,5 @@
+
+> tc_ts@0.1.0 deploy
+> gh-pages -d build --dotfiles
+
+Published

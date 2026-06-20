@@ -10,7 +10,7 @@ const tier5 = [
       "%.",
     ],
     2,
-    [[10, 20]]
+    [[10, 20]],
   ),
   null,
   new Talent(
@@ -18,7 +18,7 @@ const tier5 = [
     "ability_druid_mastershapeshifter",
     [
       <>
-        When activated, Grants you 30% spell damage and healing when in caster
+        When activated, Grants you 20% spell damage and healing when in caster
         form, 30% increased health when in Bear Form or Dire Bear Form, or 50%
         energy regeneration when in Cat Form. Lasts 15 sec.
       </>,
@@ -36,7 +36,7 @@ const tier5 = [
       isChanged: false,
       isMoved: false,
       isNew: true,
-    }
+    },
   ),
   null,
 ];
