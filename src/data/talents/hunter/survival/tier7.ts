@@ -13,11 +13,11 @@ export default [
     null,
     null,
     "115 Mana",
-    "8 - 35 yd range",
+    "35 yd range",
     "Instant cast",
     "2 min cooldown",
     null,
-    { isNew: false, isChanged: true, isMoved: false }
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   null,
   null,

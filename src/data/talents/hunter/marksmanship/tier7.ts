@@ -3,18 +3,21 @@ import { Talent } from "../../Classes";
 export default [
   null,
   new Talent(
-    "Trueshot Aura",
-    "ability_trueshot",
+    "Kill Shot",
+    "ability_hunter_assassinate2",
     [
-      "Increases the attack power of party members within 45 yards by 50. Lasts 30 min.",
+      "You attempt to finish the wounded target off, firing a long range attack dealing 150% weapon damage plus 70. Kill Shot can only be used on enemies that have 20% or less health.",
     ],
     1,
     [[]],
     [{ x: 4, y: 2 }],
     null,
-    "325 Mana",
+    "115 Mana",
+    "8 - 35 yd range",
+    "2 sec cast",
+    "10 sec cooldown",
     null,
-    "Instant"
+    { isNew: true, isChanged: false, isMoved: false },
   ),
   null,
   null,

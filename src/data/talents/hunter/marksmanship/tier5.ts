@@ -13,7 +13,8 @@ export default [
     null,
     "8% of base mana",
     "15 yd range",
-    "30 sec cooldown"
+    "Instant",
+    "30 sec cooldown",
   ),
   new Talent(
     "Barrage",
@@ -30,7 +31,7 @@ export default [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
   ),
   new Talent(
     "Improved Scorpid Sting",
@@ -45,7 +46,7 @@ export default [
     null,
     null,
     null,
-    { isNew: false, isChanged: true, isMoved: false }
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   null,
 ];

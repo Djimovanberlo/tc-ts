@@ -22,12 +22,14 @@ const tier3 = [
     null,
     null,
     null,
-    { isNew: false, isChanged: true, isMoved: false }
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   new Talent(
     "Fervor",
     "ability_druid_predatoryinstincts",
-    ["Instantly restores 30 Focus to your pet."],
+    [
+      "Instantly restores 30 Focus to your pet. Critical strikes from your pet have a chance to reduce the cooldown of Fervor by 5 sec.",
+    ],
     1,
     [[]],
     null,
@@ -37,14 +39,14 @@ const tier3 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: true, isChanged: false, isMoved: false },
   ),
   new Talent(
     "Unleashed Fury",
     "ability_bullrush",
     ["Increases the damage done by your pets by ", "%."],
     5,
-    [[4, 8, 12, 16, 20]]
+    [[4, 8, 12, 16, 20]],
   ),
   null,
 ];

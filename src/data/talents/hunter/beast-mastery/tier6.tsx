@@ -21,7 +21,7 @@ export default [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: true, isChanged: false, isMoved: false },
   ),
   null,
   new Talent(
@@ -33,7 +33,7 @@ export default [
     ],
     5,
     [[20, 40, 60, 80, 100]],
-    [{ x: 3, y: 2 }]
+    [{ x: 3, y: 2 }],
   ),
   null,
 ];

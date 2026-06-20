@@ -5,11 +5,11 @@ export default [
     "Untamed",
     "spell_nature_dryaddispelmagic",
     [
-      "When you deal Arcane, Fire or Nature you have a ",
-      "% chance to increase the attack speed of nearby party members by 10% for 6 sec.",
+      "Increases your Arcane, Fire, Frost and Nature damage by up to ",
+      "% of your attack power.",
     ],
-    2,
-    [[10, 20]],
+    3,
+    [[10, 20, 30]],
     null,
     null,
     null,
@@ -21,7 +21,7 @@ export default [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Killer Instinct",
@@ -35,7 +35,7 @@ export default [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
   ),
   new Talent(
     "Counterattack",
@@ -50,7 +50,7 @@ export default [
     "45 Mana",
     "Melee range",
     "Instant",
-    "5 sec cooldown"
+    "5 sec cooldown",
   ),
   null,
 ];

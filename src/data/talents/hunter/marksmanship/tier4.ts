@@ -10,7 +10,7 @@ export default [
       "% for 8 sec.",
     ],
     3,
-    [[5, 10, 15]],
+    [[3, 6, 9]],
     null,
     null,
     null,
@@ -18,7 +18,7 @@ export default [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: true, isChanged: false, isMoved: false },
   ),
   new Talent(
     "Mortal Shots",
@@ -33,7 +33,7 @@ export default [
     null,
     null,
     null,
-    { isNew: false, isChanged: true, isMoved: false }
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   null,
   null,
