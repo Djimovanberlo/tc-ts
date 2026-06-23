@@ -2,18 +2,14 @@ import { Talent } from "../../Classes";
 
 export default [
   new Talent(
-    "Ferocious Inspiration",
-    "ability_hunter_animalhandler",
+    "Tenacity",
+    "ability_hunter_ferociousinspiration",
     [
-      "When your pet scores a critical hit, increases the movement speed of all party members by ",
-      "% and increases the damage dealt by all pets and summons by ",
-      "% for 10 sec.",
+      " Critical strikes from your pet have ",
+      " chance to reduce the cooldown of Fervor, Intimidation and Bestial Wrath abilities by 5 sec.",
     ],
     2,
-    [
-      [4, 8],
-      [4, 8],
-    ],
+    [["a", "an increased"]],
     null,
     null,
     null,
@@ -21,7 +17,7 @@ export default [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false },
+    { isChanged: false, isNew: true, isMoved: false },
   ),
   null,
   new Talent(

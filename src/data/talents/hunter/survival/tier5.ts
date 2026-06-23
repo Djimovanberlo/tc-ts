@@ -5,7 +5,7 @@ export default [
     "Untamed",
     "spell_nature_dryaddispelmagic",
     [
-      "Increases your Arcane, Fire, Frost and Nature damage by up to ",
+      "Increases your Arcane, Fire and Nature damage by up to ",
       "% of your attack power.",
     ],
     3,

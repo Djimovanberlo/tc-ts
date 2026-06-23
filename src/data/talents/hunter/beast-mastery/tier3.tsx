@@ -27,15 +27,13 @@ const tier3 = [
   new Talent(
     "Fervor",
     "ability_druid_predatoryinstincts",
-    [
-      "Instantly restores 30 Focus to your pet. Critical strikes from your pet have a chance to reduce the cooldown of Fervor by 5 sec.",
-    ],
+    ["Instantly restores 50 Focus to your pet."],
     1,
     [[]],
     null,
     null,
     "Instant",
-    "1 min cooldown",
+    "30 sec cooldown",
     null,
     null,
     null,

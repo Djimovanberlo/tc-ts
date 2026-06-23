@@ -16,7 +16,7 @@ export default [
     "100 yd range",
     "Instant",
     "1 min cooldown",
-    ["D2"]
+    ["D2"],
   ),
   null,
   new Talent(
@@ -24,6 +24,6 @@ export default [
     "spell_nature_abolishmagic",
     ["Increases the Focus generation of your pets by ", "%."],
     2,
-    [[10, 20]]
+    [[10, 20]],
   ),
 ];

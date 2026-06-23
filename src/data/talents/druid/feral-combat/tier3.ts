@@ -48,9 +48,9 @@ const tier3 = [
     ["D1"],
   ),
   new Talent(
-    "Improved Tiger’s Fury",
-    "ability_mount_jungletiger",
-    ["Your Tiger’s Fury also generates ", " rage or ", " energy when used."],
+    "Improved Feral Fury",
+    "ability_druid_primaltenacity",
+    ["Your Feral Fury also generates ", " rage or ", " energy when used."],
     2,
     [
       [7, 15],

@@ -3,14 +3,11 @@ import { Talent } from "../../Classes";
 export default [
   null,
   new Talent(
-    "Improved Auto Shot",
-    "ability_whirlwind",
-    [
-      "When you Auto Shot thrice in a row, your critical strike chance will be increased by ",
-      "% for 8 sec.",
-    ],
+    "Improved Serpent Sting",
+    "ability_hunter_quickshot",
+    ["Increases the damage done by your Serpent Sting by ", "%."],
     3,
-    [[3, 6, 9]],
+    [[4, 7, 10]],
     null,
     null,
     null,
@@ -18,7 +15,7 @@ export default [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false },
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   new Talent(
     "Mortal Shots",

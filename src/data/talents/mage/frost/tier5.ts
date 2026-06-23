@@ -1,7 +1,24 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  null,
+  new Talent(
+    "Fingers of Frost",
+    "ability_mage_wintersgrasp",
+    [
+      "Gives your Chill effects a ",
+      "% chance to grant you the Fingers of Frost effect, which treats your next 2 spells cast as if the target were Frozen. Lasts 15 sec.",
+    ],
+    2,
+    [[7, 15]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false },
+  ),
   new Talent(
     "Ice Block",
     "spell_frost_frost",
