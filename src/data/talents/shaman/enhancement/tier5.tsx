@@ -55,8 +55,8 @@ const tier5 = [
         Unleashes your current weapon enhancement.
         <br />
         <br />
-        Rockbiter: Taunts the target to attack you and reduces your damage taken
-        by 20% for 6 sec.
+        Rockbiter: Taunts the target to attack you and reduces your physical
+        damage taken by 20% for 6 sec.
         <br />
         <br />
         Windfury: Deal 50% weapon damage as nature and increases the attack

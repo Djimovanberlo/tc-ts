@@ -26,14 +26,14 @@ const tier4 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Improved Poisons",
     "ability_poisons",
     ["Increases the chance to apply poisons to your target by ", "%."],
     5,
-    [[2, 4, 6, 8, 10]]
+    [[2, 4, 6, 8, 10]],
   ),
   null,
 ];
