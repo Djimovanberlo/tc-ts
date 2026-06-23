@@ -6,7 +6,7 @@ const tier7 = [
     "Mass Corruption",
     "spell_shadow_soulleech",
     [
-      "Corrupts all enemies within the area, causing 436 Shadow damage over 18 sec.",
+      "Applies corruption to all enemies within the area, causing 436 Shadow damage over 18 sec.",
     ],
     1,
     [[]],
@@ -15,13 +15,13 @@ const tier7 = [
     "472 mana",
     "30 yd range",
     "2 sec cast",
-    null,
+    "30 sec cooldown",
     null,
     {
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
   null,
   null,

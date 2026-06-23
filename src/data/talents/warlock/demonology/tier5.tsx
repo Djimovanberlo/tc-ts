@@ -15,7 +15,7 @@ const tier5 = [
     "8% of base mana",
     null,
     "1.5 sec cast",
-    "5 min cooldown",
+    "3 min cooldown",
     null,
     {
       isNew: true,

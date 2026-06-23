@@ -4,9 +4,16 @@ const tier5 = [
   new Talent(
     "Gloom",
     "spell_shadow_animatedead",
-    ["Reduces the chance your affliction spells are dispelled by ", "%."],
+    [
+      "Reduces the chance your affliction spells are dispelled by ",
+      "% and reduces the mana cost of your affliction spells by ",
+      "%.",
+    ],
     2,
-    [[15, 30]],
+    [
+      [15, 30],
+      [3, 6],
+    ],
     null,
     null,
     null,
@@ -18,7 +25,7 @@ const tier5 = [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Siphon Life",
@@ -34,7 +41,7 @@ const tier5 = [
     "30 yd range",
     "Instant",
     null,
-    ["D1"]
+    ["D1"],
   ),
   new Talent(
     "Curse of Exhaustion",
@@ -50,7 +57,7 @@ const tier5 = [
     "30 yd range",
     "Instant",
     null,
-    ["R1"]
+    ["R1"],
   ),
   new Talent(
     "Improved Curse of Exhaustion",
@@ -69,7 +76,7 @@ const tier5 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
 ];
 

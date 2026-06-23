@@ -44,28 +44,7 @@ const tier2 = [
     5,
     [[2, 4, 6, 8, 10]],
   ),
-  new Talent(
-    "Wizardry",
-    "ability_mage_potentspirit",
-    [
-      "When you cast a damaging spell, your spell damage is increased by ",
-      "% for 30 sec. This effect stacks up to 5 times. This effect is lost when casting the same spell twice in a row.",
-    ],
-    3,
-    [[1, 2, 3]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    },
-  ),
+  null,
 ];
 
 export default tier2;
