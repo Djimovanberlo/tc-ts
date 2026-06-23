@@ -16,7 +16,7 @@ const tier5 = [
     null,
     "Instant",
     "2 min cooldown",
-    ["D2"]
+    ["D2"],
   ),
   new Talent(
     "Reprisal",
@@ -38,7 +38,7 @@ const tier5 = [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
   null,
   null,

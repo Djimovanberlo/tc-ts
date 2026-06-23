@@ -6,7 +6,7 @@ const tier2 = [
     "inv_wand_01",
     ["Increases your damage with wands by ", "%."],
     2,
-    [[13, 25]]
+    [[13, 25]],
   ),
   new Talent(
     "Magic Absorbtion",
@@ -32,7 +32,7 @@ const tier2 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Arcane Concentration",
@@ -42,9 +42,30 @@ const tier2 = [
       "% chance of entering a clearcasting state after any damage spell hits a target. The clearcasting state reduces the mana cost of your next damage spell by 100%.",
     ],
     5,
-    [[2, 4, 6, 8, 10]]
+    [[2, 4, 6, 8, 10]],
   ),
-  null,
+  new Talent(
+    "Wizardry",
+    "ability_mage_potentspirit",
+    [
+      "When you cast a damaging spell, your spell damage is increased by ",
+      "% for 30 sec. This effect stacks up to 5 times. This effect is lost when casting the same spell twice in a row.",
+    ],
+    3,
+    [[1, 2, 3]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    },
+  ),
 ];
 
 export default tier2;
