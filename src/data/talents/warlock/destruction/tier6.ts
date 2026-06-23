@@ -2,11 +2,11 @@ import { Talent } from "../../Classes";
 
 const tier6 = [
   new Talent(
-    "Improved Soul Fire",
-    "spell_fire_fireball02",
+    "Calamity",
+    "ability_warlock_backdraft",
     [
-      "Critical strikes from your damaging spells have a ",
-      "% chance to reduce the cooldown of your Soul Fire by 2 sec and increase the damage of your next Soul Fire by 10%. This effect stacks up to 10 times.",
+      "Your Immolate spell has a ",
+      "% chance to cause the target to take 10% increased initial damage from your Immolate. This effect stacks up to 5 times.",
     ],
     2,
     [[50, 100]],

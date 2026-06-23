@@ -6,13 +6,13 @@ const tier6 = [
     "ability_warrior_focusedrage",
     [
       "While Berserker Rage or Bloodrage is active, your movement speed is increased by ",
-      "% and your damage done is increased by ",
-      "%.",
+      "% and you heal for ",
+      "% of your total health every 2 sec. These effects stack.",
     ],
     2,
     [
       [10, 20],
-      [3, 5],
+      [1, 2],
     ],
     null,
     null,

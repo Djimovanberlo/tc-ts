@@ -40,7 +40,7 @@ const tier5 = [
   new Talent(
     "Improved Intercept",
     "ability_rogue_sprint",
-    ["Reduces the cooldown by ", " sec."],
+    ["Reduces the cooldown of your intercept by ", " sec."],
     2,
     [[5, 10]],
   ),

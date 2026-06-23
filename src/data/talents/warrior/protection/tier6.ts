@@ -6,9 +6,24 @@ const tier6 = [
   new Talent(
     "One-Handed Weapon Specialization",
     "inv_sword_20",
-    ["Increases the damage you deal with One-Handed weapons by ", "%."],
+    [
+      "Increases the damage you deal with One-Handed Weapons by ",
+      "% and increases your chance to hit with One-Handed Weapons by ",
+      "%.",
+    ],
     5,
-    [[2, 4, 6, 8, 10]]
+    [
+      [1, 2, 3, 4, 5],
+      [1, 2, 3, 4, 5],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   null,
 ];
