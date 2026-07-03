@@ -7,13 +7,6 @@ const tier5 = [
     ["Reduces the Mana cost of your Prayer of Healing spell by ", "%."],
     2,
     [[10, 20]],
-    [{ x: null, y: null }],
-    [{ x: 5, y: 0 }],
-    null,
-    null,
-    null,
-    null,
-    ["D1"],
   ),
   new Talent(
     "Spirit of Redemption",

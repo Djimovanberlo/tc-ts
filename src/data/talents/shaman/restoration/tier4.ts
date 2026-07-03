@@ -22,7 +22,7 @@ const tier4 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Tidal Mastery",
@@ -32,7 +32,7 @@ const tier4 = [
       "%.",
     ],
     5,
-    [[1, 2, 3, 4, 5]]
+    [[1, 2, 3, 4, 5]],
   ),
   null,
 ];

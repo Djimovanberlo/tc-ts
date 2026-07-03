@@ -2,22 +2,24 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Improved Berserker Rage",
-    "spell_nature_ancestralguardian",
-    ["Causes your Berserker Rage to generate ", " rage when used."],
-    2,
-    [[5, 10]],
+    "Heroic Fury",
+    "spell_nature_shamanrage",
+    [
+      "Removes immobilization effects and refreshed the cooldown of your Intercept.",
+    ],
+    1,
+    [[]],
     null,
     null,
     null,
     null,
-    null,
-    null,
+    "Instant",
+    "2 min cooldown",
     null,
     {
-      isNew: false,
+      isNew: true,
       isChanged: false,
-      isMoved: true,
+      isMoved: false,
     },
   ),
   new Talent(

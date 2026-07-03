@@ -6,7 +6,7 @@ const tier3 = [
     "spell_frost_stun",
     ["Increases your chance to hit by ", "%."],
     3,
-    [[1, 2, 3]]
+    [[1, 2, 3]],
   ),
   new Talent(
     "Healing Focus",
@@ -16,7 +16,7 @@ const tier3 = [
       "% chance to avoid interruption caused by damage while casting any Healing spell.",
     ],
     5,
-    [[14, 28, 42, 56, 70]]
+    [[14, 28, 42, 56, 70]],
   ),
   new Talent(
     "Water Shield",
@@ -33,7 +33,7 @@ const tier3 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: true, isChanged: false, isMoved: false },
   ),
   new Talent(
     "Nature's Grace",
@@ -55,7 +55,7 @@ const tier3 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
 ];
 

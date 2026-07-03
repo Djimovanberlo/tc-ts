@@ -2,13 +2,16 @@ import { Talent } from "../../Classes";
 
 const tier6 = [
   new Talent(
-    "Inspired Prayer",
+    "Test of Faith",
     "spell_holy_impholyconcentration",
-    ["Reduces the Mana cost of your Prayer of Healing spell by ", "%."],
+    [
+      "Increases your damage and healing on targets at or below 50% health by ",
+      "%.",
+    ],
     2,
-    [[10, 20]],
-    [{ x: 4, y: 0 }],
-    [{ x: null, y: null }],
+    [[5, 10]],
+    null,
+    null,
     null,
     null,
     null,

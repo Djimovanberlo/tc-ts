@@ -4,28 +4,9 @@ const tier3 = [
   new Talent(
     "Improved Cleave",
     "ability_warrior_cleave",
-    [
-      "Increases the damage done by your Cleave by ",
-      "%. This is increased by an additional ",
-      "% while Berserker Rage or Bloodrage is active. These effects stack.",
-    ],
+    ["Reduces the bonus damage done by your Cleave ability by ", "%."],
     3,
-    [
-      [3, 6, 9],
-      [3, 6, 9],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    },
+    [[40, 80, 120]],
   ),
   new Talent(
     "Piercing Howl",

@@ -1,7 +1,25 @@
 import { Talent } from "../../Classes";
 
 const tier2 = [
-  null,
+  new Talent(
+    "Improved Berserker Rage",
+    "spell_nature_ancestralguardian",
+    ["Causes your Berserker Rage to generate ", " rage when used."],
+    2,
+    [[5, 10]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: false,
+      isMoved: true,
+    },
+  ),
   new Talent(
     "Improved Demoralizing Shout",
     "ability_warrior_warcry",
