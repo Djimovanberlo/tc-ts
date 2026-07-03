@@ -1,7 +1,31 @@
 import { Talent } from "../../Classes";
 
 const tier3 = [
-  null,
+  new Talent(
+    "Force of Will",
+    "spell_nature_slowingtotem",
+    [
+      "Increases your spell damage and increases the critical strike chance of your offensive spells by ",
+      "%.",
+    ],
+    5,
+    [
+      [1, 2, 3, 4, 5],
+      [1, 2, 3, 4, 5],
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: false,
+      isMoved: true,
+    },
+  ),
   new Talent(
     "Inner Focus",
     "spell_frost_windwalkon",
@@ -15,7 +39,7 @@ const tier3 = [
     null,
     null,
     "Instant",
-    "3 min cooldown"
+    "3 min cooldown",
   ),
   new Talent(
     "Meditation",
@@ -34,7 +58,7 @@ const tier3 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   null,
 ];

@@ -6,7 +6,7 @@ const tier4 = [
     "spell_shadow_vampiricaura",
     ["Reduces the Energy cost of your Shred ability by ", "."],
     2,
-    [[6, 12]]
+    [[6, 12]],
   ),
   new Talent(
     "Predatory Strikes",
@@ -23,7 +23,7 @@ const tier4 = [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
   ),
   new Talent(
     "Primal Fury",
@@ -45,7 +45,7 @@ const tier4 = [
     null,
     null,
     null,
-    { isNew: false, isChanged: true, isMoved: false }
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   null,
 ];

@@ -27,14 +27,14 @@ export default [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Survivalist",
     "spell_shadow_twilight",
     ["Increases total health by ", "%."],
     5,
-    [[2, 4, 6, 8, 10]]
+    [[2, 4, 6, 8, 10]],
   ),
   new Talent(
     "Deterrence",
@@ -48,17 +48,21 @@ export default [
     null,
     "Instant",
     "5 min cooldown",
-    ["D2"]
+    ["D2"],
   ),
   new Talent(
-    "Melee Specialization",
+    "Tactical Combat",
     "inv_sword_05",
     [
       "Increases the damage you deal with melee attacks and abilities by ",
-      "%.",
+      "% and reduces the minimum range of your shots with minimum range by ",
+      ".",
     ],
     3,
-    [[3, 6, 9]],
+    [
+      [2, 4, 6],
+      [1, 2, 3],
+    ],
     null,
     null,
     null,
@@ -70,6 +74,6 @@ export default [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
 ];

@@ -2,14 +2,18 @@ import { Talent } from "../../Classes";
 
 const tier6 = [
   new Talent(
-    "Light's Grace",
-    "spell_holy_lightsgrace",
+    "Blessed Seals",
+    "spell_holy_healingaura",
     [
-      "Gives your Holy Light spell a ",
-      "% chance to reduce the cast time of your next Holy Light spell by 0.5 sec. This effect lasts 15 sec.",
+      "While your Seal of Light is active, your Flash of Light and Holy Light spells also heal you for ",
+      "% of the amount healed. While Seal of Wisdom is active, your Flash of Light and Holy Light spells also grant you ",
+      "% of the cost.",
     ],
-    3,
-    [[33, 67, 100]],
+    2,
+    [
+      [5, 10],
+      [5, 10],
+    ],
     null,
     null,
     null,
@@ -17,7 +21,11 @@ const tier6 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    },
   ),
   null,
   new Talent(
@@ -44,7 +52,7 @@ const tier6 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   null,
 ];

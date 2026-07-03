@@ -9,7 +9,7 @@ const tier4 = [
       "%.",
     ],
     2,
-    [[10, 20]]
+    [[10, 20]],
   ),
   new Talent(
     "Frost Channeling",
@@ -23,7 +23,7 @@ const tier4 = [
     [
       [5, 10, 15],
       [10, 20, 30],
-    ]
+    ],
   ),
   new Talent(
     "Shatter",
@@ -45,9 +45,26 @@ const tier4 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
-  null,
+  new Talent(
+    "Piercing Chill",
+    "spell_frost_piercing-chill",
+    [
+      "Gives your Forstbolt a ",
+      "% chance to apply the chill effect to a nearby target.",
+    ],
+    2,
+    [[50, 100]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false },
+  ),
 ];
 
 export default tier4;

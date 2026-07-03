@@ -10,13 +10,13 @@ const tier5 = [
     ],
     1,
     [[]],
-    null,
+    [{ x: null, y: null }],
     [{ x: 5, y: 1 }],
     null,
     null,
     "Instant",
     "3 min cooldown",
-    ["D1"]
+    ["D1"],
   ),
   new Talent(
     "Arcane Mind",
@@ -24,7 +24,7 @@ const tier5 = [
     ["Increases your maximum Mana by ", "%."],
     5,
     [[2, 4, 6, 8, 10]],
-    [{ x: 2, y: 2 }]
+    [{ x: 2, y: 2 }],
   ),
   null,
 ];

@@ -7,7 +7,7 @@ const tier4 = [
     "spell_holy_greaterheal",
     [
       "After getting a critical effect from your Flash of Light, Holy Light or Holy Shock spell, gives you a ",
-      "% chance to gain mana equal to the base cost of the spell.",
+      "% chance to gain mana equal to 60% of the base cost of the spell.",
     ],
     5,
     [[20, 40, 60, 80, 100]],
@@ -17,14 +17,14 @@ const tier4 = [
     null,
     null,
     null,
-    ["D1"]
+    ["D1"],
   ),
   new Talent(
     "Improved Blessing of Wisdom",
     "spell_holy_sealofwisdom",
     ["Increases the effect of your Blessing of Wisdom spell by ", "%."],
     2,
-    [[10, 20]]
+    [[10, 20]],
   ),
   null,
 ];
