@@ -13,7 +13,7 @@ const tier3 = [
     null,
     "185 Mana",
     null,
-    "Instant"
+    "Instant",
   ),
   new Talent(
     "Blessed Recovery",
@@ -23,7 +23,7 @@ const tier3 = [
       "% of the damage taken over 8 sec.",
     ],
     3,
-    [[8, 16, 25]]
+    [[8, 16, 25]],
   ),
   new Talent(
     "Searing Light",
@@ -49,7 +49,7 @@ const tier3 = [
       isNew: false,
       isChanged: true,
       isMoved: true,
-    }
+    },
   ),
   new Talent(
     "Inspiration",
@@ -59,7 +59,7 @@ const tier3 = [
       "% for 8 sec after getting a critical hit with Heal, Greater Heal, Flash Heal or Prayer of Healing.",
     ],
     3,
-    [[8, 16, 25]]
+    [[8, 16, 25]],
   ),
 ];
 

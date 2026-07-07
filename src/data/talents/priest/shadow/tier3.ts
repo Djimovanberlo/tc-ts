@@ -5,13 +5,9 @@ const tier3 = [
   new Talent(
     "Improved Mind Blast",
     "spell_shadow_unholyfrenzy",
-    [
-      "Reduces the cooldown of your Mind Blast by ",
-      " sec and reduces the additional threat of your Mind Blast by ",
-      "%.",
-    ],
+    ["Reduces the cooldown of your Mind Blast by ", " sec."],
     5,
-    [[0.5, 1, 1.5, 2, 2.5]]
+    [[0.5, 1, 1.5, 2, 2.5]],
   ),
   new Talent(
     "Mind Flay",
@@ -25,7 +21,7 @@ const tier3 = [
     null,
     "45 Mana",
     "20 yd range",
-    "Channeled (3 sec cast)"
+    "Channeled (3 sec cast)",
   ),
   null,
 ];

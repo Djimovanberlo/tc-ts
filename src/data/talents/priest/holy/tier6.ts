@@ -1,28 +1,17 @@
-import { Talent } from "../../Classes";
+import { NewTalent, Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent(
-    "Test of Faith",
-    "spell_holy_impholyconcentration",
-    [
-      "Increases your damage and healing on targets at or below 50% health by ",
-      "%.",
+  new NewTalent({
+    name: "Blessed Hope",
+    icon: "spell_holy_impholyconcentration",
+    description: [
+      "Critical strikes from your Heal and Greater Heal also heal up to two party members near your target for ",
+      "% of the amount healed, causing no additional threat.",
     ],
-    2,
-    [[5, 10]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    },
-  ),
+    maxValue: 2,
+    valueIteration: [[5, 10]],
+    changed: { isNew: true },
+  }),
   null,
   new Talent(
     "Spiritual Healing",

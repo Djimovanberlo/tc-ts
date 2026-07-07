@@ -1,27 +1,15 @@
-import { Talent } from "../../Classes";
+import { NewTalent, Talent } from "../../Classes";
 
 const tier5 = [
-  new Talent(
-    "Heroic Fury",
-    "spell_nature_shamanrage",
-    [
-      "Removes immobilization effects and refreshed the cooldown of your Intercept.",
-    ],
-    1,
-    [[]],
-    null,
-    null,
-    null,
-    null,
-    "Instant",
-    "2 min cooldown",
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    },
-  ),
+  new NewTalent({
+    name: "Dual Wield Mastery",
+    icon: "spell_holy_blessingofstrength",
+    description: ["Increases the hit chance of your off-hand weapon by ", "%."],
+    maxValue: 3,
+    valueIteration: [[2, 4, 6]],
+    required: [{ x: 3, y: 0 }],
+    changed: { isNew: true },
+  }),
   new Talent(
     "Death Wish",
     "spell_shadow_deathpact",

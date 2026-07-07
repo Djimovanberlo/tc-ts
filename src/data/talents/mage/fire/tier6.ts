@@ -9,7 +9,7 @@ const tier6 = [
       " sec if 3 or more targets are taking Fire damage over time from your spells.",
     ],
     2,
-    [[0.05, 0.1]],
+    [[0.25, 0.5]],
     null,
     null,
     null,

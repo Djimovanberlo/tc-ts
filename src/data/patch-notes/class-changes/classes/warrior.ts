@@ -6,5 +6,6 @@ export default {
     "Slam can now be cast while moving and ignores pushback caused by damage.",
     "Increased the damage dealt by Rend.",
     "Increased the time required for your rage to decay while out of combat 30%.",
+    "Optional: rage generation has been normalized.",
   ],
 };

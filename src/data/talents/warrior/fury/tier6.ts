@@ -2,7 +2,7 @@ import { Talent } from "../../Classes";
 
 const tier6 = [
   new Talent(
-    "Unbound Fury",
+    "Unbound Rage",
     "ability_warrior_focusedrage",
     [
       "While Berserker Rage or Bloodrage is active, your movement speed is increased by ",

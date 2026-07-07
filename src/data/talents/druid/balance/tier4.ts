@@ -1,32 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier4 = [
-  new Talent(
-    "Improved Hurricane",
-    "spell_nature_cyclone",
-    [
-      "Reduces the cast time of your Hurricane by ",
-      " sec and reduces the cooldown by ",
-      " sec.",
-    ],
-    2,
-    [
-      [1.5, 3],
-      [5, 10],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    },
-  ),
+  null,
   new Talent(
     "Vengeance",
     "spell_nature_purge",

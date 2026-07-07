@@ -6,7 +6,7 @@ export default [
     "ability_hunter_ferociousinspiration",
     [
       " Critical strikes from your pet have ",
-      " chance to reduce the cooldown of Fervor, Intimidation and Bestial Wrath abilities by 5 sec.",
+      " chance to reduce the cooldown of Fervor, Intimidation and Bestial Wrath abilities by 5 sec. Attacks with lower speed have a bigger chance to trigger this effect.",
     ],
     2,
     [["a", "an increased"]],
