@@ -6,7 +6,7 @@ const tier5 = [
     "Unholy Frenzy",
     "ability_creature_disease_05",
     [
-      "Increases the damage done by your active demon by 50%, but it loses 50% of its total health over 10 sec.",
+      "Increases the damage done by your active demon by 100%, but it loses 50% of its total health over 10 sec.",
     ],
     1,
     [[]],
