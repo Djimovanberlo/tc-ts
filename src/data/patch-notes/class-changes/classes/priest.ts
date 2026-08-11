@@ -2,6 +2,7 @@ export default {
   title: "Priest",
   content: [
     "Damage absorbed by Power Word: Shield now scales with spell healing.",
+    "Reduced the mana cost of Smite and Holy Fire.",
     "Fear Ward is now available to all races. Cooldown increased to 3 minutes, last 3 minutes. Fear Ward is now a discipline spell.",
     "Feedback (Human) reduced mana cost and increased effect.",
     "Chastise (Dwarf): new spell: Deals Holy damage and immoblizes the target, causing low theat. 20 yd range, 30 sec cooldown.",

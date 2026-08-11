@@ -1,35 +1,21 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent(
-    "Serenity",
-    "spell_holy_serendipity",
-    [
-      "Critical strikes from your direct damage spells and direct heals have a ",
-      "% chance to heal a party member within 40 yards by 25% of the damage or healing done. Prioritizes party members with low health.",
-    ],
-    2,
-    [[50, 100]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    },
-  ),
+  null,
   null,
   new Talent(
-    "Devotion",
-    "spell_holy_heroism",
-    ["Increases your critical strike damage and healing by ", "%."],
-    3,
-    [[20, 40, 60]],
+    "Force of Will",
+    "spell_nature_slowingtotem",
+    [
+      "Increases the critical strike chance of your offensive spells by ",
+      "% and increases critical strike damage of your offensive spells by ",
+      "%.",
+    ],
+    5,
+    [
+      [1, 2, 3, 4, 5],
+      [20, 40, 60, 80, 100],
+    ],
     null,
     null,
     null,
@@ -38,8 +24,8 @@ const tier6 = [
     null,
     null,
     {
-      isNew: true,
-      isChanged: false,
+      isNew: false,
+      isChanged: true,
       isMoved: false,
     },
   ),

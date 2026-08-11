@@ -10,7 +10,7 @@ const tier3 = [
       "%.",
     ],
     3,
-    [[4, 8, 12]]
+    [[4, 8, 12]],
   ),
   new Talent(
     "Sanctify",
@@ -18,7 +18,7 @@ const tier3 = [
     [
       <>
         Sanctifies the land beneath the Paladin, doing 64 holy damage to enemies
-        and healing friendly targets for 64 in the area. <br />
+        and healing party members for 64 in the area. <br />
         <br /> Replaces Consecration.
       </>,
     ],
@@ -35,7 +35,7 @@ const tier3 = [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Improved Lay on Hands",
@@ -45,7 +45,7 @@ const tier3 = [
       "% bonus to their armor value from items for 2 min. In addition, the cooldown of your Lay on hands spell is reduced by 10 min.",
     ],
     2,
-    [[15, 30]]
+    [[15, 30]],
   ),
   new Talent(
     "Unyielding Faith",
@@ -55,7 +55,7 @@ const tier3 = [
       "%.",
     ],
     2,
-    [[5, 10]]
+    [[5, 10]],
   ),
 ];
 

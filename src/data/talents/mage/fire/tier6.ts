@@ -1,24 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent(
-    "Pyromaniac",
-    "spell_fire_burnout",
-    [
-      "Reduces the cast time of your Fire spells by ",
-      " sec if 3 or more targets are taking Fire damage over time from your spells.",
-    ],
-    2,
-    [[0.25, 0.5]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false },
-  ),
+  null,
   null,
   new Talent(
     "Fire power",

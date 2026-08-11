@@ -10,7 +10,7 @@ export default [
     ],
     1,
     [[]],
-    [{ x: 4, y: 2 }],
+    [{ x: 4, y: 1 }],
     null,
     "115 Mana",
     "8 - 35 yd range",

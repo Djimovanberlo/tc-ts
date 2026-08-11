@@ -1,4 +1,4 @@
-import { NewTalent, Talent } from "../../Classes";
+import { Talent } from "../../Classes";
 
 const tier6 = [
   null,

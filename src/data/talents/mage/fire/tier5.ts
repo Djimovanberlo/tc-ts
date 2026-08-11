@@ -1,7 +1,23 @@
 import { Talent } from "../../Classes";
 
 const tier5 = [
-  null,
+  new Talent(
+    "Molten Armor",
+    "ability_mage_moltenarmor",
+    [
+      "Increases your chance to critically hit with spells by 3%. Causes 79 Fire damage and dazes the target for 4 sec when you are hit and by a spell or attack. This effect has 12 sec cooldown. Only one type of Armor spell can be active on the Mage at any time. Lasts 30 min.",
+    ],
+    1,
+    [[]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    { isNew: true, isChanged: false, isMoved: false },
+  ),
   new Talent(
     "Critical Mass",
     "spell_nature_wispheal",
@@ -14,7 +30,7 @@ const tier5 = [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
   ),
   new Talent(
     "Blast Wave",
@@ -29,7 +45,7 @@ const tier5 = [
     "215 Mana",
     null,
     "Instant",
-    "45 sec cooldown"
+    "45 sec cooldown",
   ),
   null,
 ];
