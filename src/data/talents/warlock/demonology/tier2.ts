@@ -6,15 +6,15 @@ const tier2 = [
     "spell_shadow_lifedrain",
     [
       "Increases the amount of Health transferred by your Health Funnel spell by ",
-      "% and reduces the health cost by ",
-      "%. In addition, your summoned Demon takes ",
+      "%. In addition, your summoned Demon deals ",
+      "% more damage and takes ",
       "% less damage while under the effect of your Health Funnel.",
     ],
     2,
     [
       [10, 20],
       [10, 20],
-      [15, 30],
+      [10, 20],
     ],
     null,
     null,
@@ -27,7 +27,7 @@ const tier2 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Improved Void Walker",
@@ -37,7 +37,7 @@ const tier2 = [
       "%.",
     ],
     3,
-    [[10, 20, 30]]
+    [[10, 20, 30]],
   ),
   new Talent(
     "Fel Intellect",
@@ -63,7 +63,7 @@ const tier2 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Mana Feed",
@@ -85,7 +85,7 @@ const tier2 = [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
 ];
 

@@ -5,7 +5,7 @@ const tier5 = [
     "Molten Armor",
     "ability_mage_moltenarmor",
     [
-      "Increases your chance to critically hit with spells by 3%. Causes 79 Fire damage and dazes the target for 4 sec when you are hit and by a spell or attack. This effect has 12 sec cooldown. Only one type of Armor spell can be active on the Mage at any time. Lasts 30 min.",
+      "Increases your chance to critically hit with spells by 3%. Causes 79 Fire damage and dazes the target for 2 sec when you are hit and by a spell or attack. This effect has 12 sec cooldown. Only one type of Armor spell can be active on the Mage at any time. Lasts 30 min.",
     ],
     1,
     [[]],

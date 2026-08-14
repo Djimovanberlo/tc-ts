@@ -21,7 +21,7 @@ const tier6 = [
         Void Walker: Reduces physical damage taken by{" "}
       </>,
       <>
-        % of total Health every 4 sec.
+        %.
         <br />
         <br />
         Succubus/Incubus: increases all damage caused by{" "}
@@ -40,7 +40,7 @@ const tier6 = [
       [2, 4, 6, 8, 10],
       [0.2, 0.4, 0.6, 0.8, 1],
     ],
-    [{ x: 3, y: 2 }]
+    [{ x: 3, y: 2 }],
   ),
   null,
 ];

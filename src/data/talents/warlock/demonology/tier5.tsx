@@ -3,27 +3,6 @@ import { Talent } from "../../Classes";
 
 const tier5 = [
   new Talent(
-    "Unholy Frenzy",
-    "ability_creature_disease_05",
-    [
-      "Increases the damage done by your active demon by 100%, but it loses 50% of its total health over 10 sec.",
-    ],
-    1,
-    [[]],
-    null,
-    null,
-    "8% of base mana",
-    null,
-    "1.5 sec cast",
-    "3 min cooldown",
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    },
-  ),
-  new Talent(
     "Demonic Sacrifice",
     "spell_shadow_psychicscream",
     [
@@ -41,6 +20,28 @@ const tier5 = [
     ],
     1,
     [[]],
+
+    null,
+    null,
+    "8% of base mana",
+    null,
+    "1.5 sec cast",
+    "2 min cooldown",
+    null,
+    {
+      isNew: false,
+      isChanged: false,
+      isMoved: true,
+    },
+  ),
+  new Talent(
+    "Unholy Frenzy",
+    "ability_creature_disease_05",
+    [
+      "Increases the damage done by your active demon by 100%, but it loses 50% of its total health over 10 sec.",
+    ],
+    1,
+    [[]],
     null,
     [{ x: 6, y: 1 }],
     "100 yd range",
@@ -48,6 +49,11 @@ const tier5 = [
     "Instant",
     null,
     ["D2"],
+    {
+      isNew: true,
+      isChanged: false,
+      isMoved: false,
+    },
   ),
   null,
   new Talent(

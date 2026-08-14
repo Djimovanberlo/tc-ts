@@ -1,24 +1,17 @@
-import { Talent } from "../../Classes";
+import { NewTalent, Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent(
-    "Calamity",
-    "ability_warlock_backdraft",
-    [
-      "Your Immolate spell has a ",
-      "% chance to cause the target to take 10% increased initial damage from your Immolate. This effect stacks up to 5 times.",
+  new NewTalent({
+    name: "Improved Soul Fire",
+    icon: "spell_fire_fireball02",
+    description: [
+      "Critical strikes from your damaging spells have a ",
+      "% chance to reduce the cooldown of your Soul Fire by 2 sec and increase the damage of your next Soul Fire by 5%. This effect stacks up to 10 times.",
     ],
-    2,
-    [[50, 100]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    { isNew: true, isChanged: false, isMoved: false },
-  ),
+    maxValue: 2,
+    valueIteration: [[50, 100]],
+    changed: { isNew: true },
+  }),
   null,
   new Talent(
     "Emberstorm",

@@ -9,7 +9,7 @@ const tier3 = [
       "% chance to add an additional combo point to your target when using your Ambush, Garrote or Cheap Shot ability.",
     ],
     3,
-    [[25, 50, 75]]
+    [[25, 50, 75]],
   ),
   new Talent(
     "Ghostly Strike",
@@ -30,16 +30,37 @@ const tier3 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Improved Ambush",
     "ability_rogue_ambush",
     ["Increases the critical strike chance of your Ambush ability by ", "%."],
     3,
-    [[15, 30, 45]]
+    [[15, 30, 45]],
   ),
-  null,
+  new Talent(
+    "Setup",
+    "spell_nature_mirrorimage",
+    [
+      "Gives you a ",
+      "% chance to add a combo point to your current target after a party member dodges an attack or fully resists a spell. This cannot occur more than once per second.",
+    ],
+    3,
+    [[25, 50, 75]],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      isNew: false,
+      isChanged: true,
+      isMoved: true,
+    },
+  ),
 ];
 
 export default tier3;

@@ -25,14 +25,14 @@ const tier2 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Elusiveness",
     "spell_magic_lesserinvisibilty",
     ["Reduces the cooldown of you Vanish and Blind abilities by ", " sec."],
     2,
-    [[45, 90]]
+    [[45, 90]],
   ),
   new Talent(
     "Camouflage",
@@ -46,30 +46,9 @@ const tier2 = [
     [
       [3, 6, 9, 12, 15],
       [1, 2, 3, 4, 5],
-    ]
-  ),
-  new Talent(
-    "Setup",
-    "spell_nature_mirrorimage",
-    [
-      "Gives you a ",
-      "% chance to add a combo point to your current target after a party member dodges an attack or fully resists a spell. This cannot occur more than once per second.",
     ],
-    3,
-    [[25, 50, 75]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: true,
-    }
   ),
+  null,
 ];
 
 export default tier2;

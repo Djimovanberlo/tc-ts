@@ -53,8 +53,8 @@ const tier3 = [
     ["Your Feral Fury also generates ", " rage or ", " energy when used."],
     2,
     [
-      [7, 15],
-      [20, 40],
+      [5, 10],
+      [15, 30],
     ],
     null,
     null,

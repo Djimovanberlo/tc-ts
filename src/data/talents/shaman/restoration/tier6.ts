@@ -17,7 +17,7 @@ const tier6 = [
     null,
     null,
     null,
-    { isNew: true, isChanged: false, isMoved: false }
+    { isNew: true, isChanged: false, isMoved: false },
   ),
   null,
   new Talent(
@@ -44,7 +44,7 @@ const tier6 = [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   null,
 ];

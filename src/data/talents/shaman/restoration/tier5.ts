@@ -9,7 +9,7 @@ const tier5 = [
       "% chance to increase the effect of subsequent Healing Waves on that target by 6% for 15 sec. This effect stacks up to 3 times.",
     ],
     3,
-    [[33, 66, 100]]
+    [[33, 66, 100]],
   ),
   null,
   new Talent(
@@ -23,7 +23,7 @@ const tier5 = [
     null,
     null,
     "Instant",
-    "3 min cooldown"
+    "3 min cooldown",
   ),
   null,
 ];

@@ -1,4 +1,4 @@
-import { Talent } from "../../Classes";
+import { NewTalent, Talent } from "../../Classes";
 
 const tier7 = [
   null,
@@ -14,8 +14,25 @@ const tier7 = [
     null,
     "20% of base mana",
     "100 yd range",
-    "Instant"
+    "Instant",
   ),
+  new NewTalent({
+    name: "Master Conjurer",
+    icon: "spell_shadow_sealofkings",
+    description: [
+      "Increases the bonus Fire damage from Firestone by ",
+      "% and increases the amount of damage absorbed by your Spellstone by ",
+      "%. In addition, your Firestone and Spellstone increase your hit chance while equipped by ",
+      "%.",
+    ],
+    maxValue: 2,
+    valueIteration: [
+      [15, 30],
+      [15, 30],
+      [2, 4],
+    ],
+    changed: { isNew: true },
+  }),
   null,
 ];
 
