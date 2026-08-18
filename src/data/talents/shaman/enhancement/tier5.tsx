@@ -28,16 +28,26 @@ const tier5 = [
     "Elemental Weapons",
     "spell_fire_flametounge",
     [
-      "Increases the melee attack power bonus of your Rockbiter Weapon by ",
-      "%, your Windfury Weapon effect by ",
-      "% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by ",
-      "%.",
+      <>Increases the melee attack power bonus of your Rockbiter Weapon by </>,
+      <>%, your Windfury Weapon effect by </>,
+      <>
+        % and increases the damage caused by your Flametongue Weapon and
+        Frostbrand Weapon by{" "}
+      </>,
+      <>
+        %.
+        <br />
+        <br />
+        In addition, increases your spell damage and healing by{" "}
+      </>,
+      <>% of your attack power.</>,
     ],
     3,
     [
       [7, 14, 20],
       [13, 27, 40],
       [5, 10, 15],
+      [10, 20, 30],
     ],
     [{ x: null, y: null }],
     [{ x: 6, y: 1 }],
@@ -46,6 +56,7 @@ const tier5 = [
     null,
     null,
     ["D2"],
+    { isChanged: true, isMoved: false, isNew: false },
   ),
   new Talent(
     "Unleash Enhancement",

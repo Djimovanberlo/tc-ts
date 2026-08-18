@@ -6,7 +6,7 @@ const tier5 = [
     "inv_hammer_04",
     ["Increases the damage you deal with Two-Handed melee weapons by ", "%."],
     3,
-    [[2, 4, 6]]
+    [[2, 4, 6]],
   ),
   null,
   new Talent(
@@ -28,7 +28,7 @@ const tier5 = [
       isNew: false,
       isChanged: false,
       isMoved: true,
-    }
+    },
   ),
   null,
 ];

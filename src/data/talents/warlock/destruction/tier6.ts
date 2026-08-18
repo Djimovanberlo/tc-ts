@@ -1,18 +1,21 @@
 import { NewTalent, Talent } from "../../Classes";
 
 const tier6 = [
+  null,
   new NewTalent({
-    name: "Improved Soul Fire",
-    icon: "spell_fire_fireball02",
+    name: "Calamity",
+    icon: "ability_warlock_backdraft",
     description: [
-      "Critical strikes from your damaging spells have a ",
-      "% chance to reduce the cooldown of your Soul Fire by 2 sec and increase the damage of your next Soul Fire by 5%. This effect stacks up to 10 times.",
+      "Increases the damage done by your direct Fire spells to targets afflicted by your Immolate by ",
+      "%.",
     ],
     maxValue: 2,
-    valueIteration: [[50, 100]],
+    valueIteration: [[10, 20]],
     changed: { isNew: true },
+    arrows: ["D1"],
+    required: [{ x: 4, y: 1 }],
+    requiring: [{ x: 6, y: 1 }],
   }),
-  null,
   new Talent(
     "Emberstorm",
     "spell_fire_selfdestruct",
