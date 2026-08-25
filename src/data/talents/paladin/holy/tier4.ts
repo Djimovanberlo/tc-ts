@@ -18,6 +18,7 @@ const tier4 = [
     null,
     null,
     ["D1"],
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   new Talent(
     "Improved Blessing of Wisdom",

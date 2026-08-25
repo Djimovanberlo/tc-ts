@@ -9,10 +9,10 @@ const tier6 = [
       "% of the amount healed. While Seal of Wisdom is active, your Flash of Light and Holy Light also grant mana equal to ",
       "% of the amount healed.",
     ],
-    3,
+    2,
     [
-      [2, 4, 6],
-      [1, 2, 3],
+      [4, 8],
+      [2, 4],
     ],
     null,
     null,
