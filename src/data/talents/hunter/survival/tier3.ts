@@ -34,13 +34,11 @@ export default [
     icon: "spell_nature_unleashedrage",
     description: [
       "Gives your Raptor Strike and Mongoose Bite a ",
-      "% chance to increase the damage done by your Arcane, Fire and Nature spells by 25% for 10 sec.",
+      "% chance to increase the damage done by your Arcane, Fire and Nature damage by 25% for 10 sec.",
     ],
     maxValue: 2,
     valueIteration: [[25, 50]],
     required: [{ x: 1, y: 1 }],
-    cooldown: "30 sec cooldown",
-    castTime: "Instant",
     changed: {
       isNew: true,
     },
