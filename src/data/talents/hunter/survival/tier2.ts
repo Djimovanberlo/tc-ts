@@ -32,8 +32,6 @@ export default [
     ],
     maxValue: 2,
     valueIteration: [[10, 20]],
-    requiring: [{ x: 2, y: 1 }],
-    arrows: ["D1"],
   }),
   new Talent(
     "Improved Wing Clip",
