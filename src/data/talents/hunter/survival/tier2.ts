@@ -1,4 +1,4 @@
-import { Talent } from "../../Classes";
+import { NewTalent, Talent } from "../../Classes";
 
 export default [
   new Talent(
@@ -21,18 +21,20 @@ export default [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
-  new Talent(
-    "Savage Strikes",
-    "ability_racial_bloodrage",
-    [
+  new NewTalent({
+    name: "Savage Strikes",
+    icon: "ability_racial_bloodrage",
+    description: [
       "Increases the critical strike chance of Raptor Strike and Mongoose Bite by ",
       "%.",
     ],
-    2,
-    [[10, 20]]
-  ),
+    maxValue: 2,
+    valueIteration: [[10, 20]],
+    requiring: [{ x: 2, y: 1 }],
+    arrows: ["D1"],
+  }),
   new Talent(
     "Improved Wing Clip",
     "ability_rogue_trip",
@@ -50,7 +52,7 @@ export default [
       isNew: false,
       isChanged: true,
       isMoved: false,
-    }
+    },
   ),
   null,
 ];

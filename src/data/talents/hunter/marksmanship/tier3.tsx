@@ -17,12 +17,9 @@ export default [
   new Talent(
     "Improved Arcane Shot",
     "ability_impalingbolt",
-    [
-      "Your ranged attacks and main hand weapon attacks increase the of your next Arcane Shot by ",
-      "%, up to 50%.",
-    ],
-    3,
-    [[4, 7, 10]],
+    ["Your auto shot reduces the cooldown of your Arcane Shot by ", " sec."],
+    2,
+    [[0.5, 1]],
     null,
     null,
     null,

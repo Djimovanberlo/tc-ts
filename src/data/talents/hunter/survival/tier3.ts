@@ -1,4 +1,4 @@
-import { Talent } from "../../Classes";
+import { NewTalent, Talent } from "../../Classes";
 
 export default [
   new Talent(
@@ -29,13 +29,22 @@ export default [
       isMoved: false,
     },
   ),
-  new Talent(
-    "Survivalist",
-    "spell_shadow_twilight",
-    ["Increases total health by ", "%."],
-    5,
-    [[2, 4, 6, 8, 10]],
-  ),
+  new NewTalent({
+    name: "Primal Instincts",
+    icon: "spell_nature_unleashedrage",
+    description: [
+      "Gives your Raptor Strike and Mongoose Bite a ",
+      "% chance to increase the damage done by your Arcane, Fire and Nature spells by 25% for 10 sec.",
+    ],
+    maxValue: 2,
+    valueIteration: [[25, 50]],
+    required: [{ x: 1, y: 1 }],
+    cooldown: "30 sec cooldown",
+    castTime: "Instant",
+    changed: {
+      isNew: true,
+    },
+  }),
   new Talent(
     "Deterrence",
     "ability_whirlwind",
@@ -51,29 +60,10 @@ export default [
     ["D2"],
   ),
   new Talent(
-    "Tactical Combat",
-    "inv_sword_05",
-    [
-      "Increases the damage you deal with melee attacks and abilities by ",
-      "% and reduces the minimum range of your shots with minimum range by ",
-      ".",
-    ],
-    3,
-    [
-      [2, 4, 6],
-      [1, 2, 3],
-    ],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    },
+    "Survivalist",
+    "spell_shadow_twilight",
+    ["Increases total health by ", "%."],
+    5,
+    [[2, 4, 6, 8, 10]],
   ),
 ];

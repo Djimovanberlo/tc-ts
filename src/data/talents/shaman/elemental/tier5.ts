@@ -9,7 +9,7 @@ const tier5 = [
       " yards.",
     ],
     2,
-    [[3, 6]]
+    [[3, 6]],
   ),
   new Talent(
     "Elemental Fury",
@@ -25,7 +25,7 @@ const tier5 = [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
   ),
   null,
   null,
