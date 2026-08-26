@@ -7,7 +7,6 @@ export default {
     "Mend pet is now instant cast and has 40 yard range. It is still a heal over time effect.",
     "Aspect of the Beast reworked: now increases the melee attack power of the hunter and the hunter's pet.",
     "Aspect of the Wild now also makes affected targets untrackable.",
-    "Hunters now gain 1 melee attack power for each point of agility.",
     "All pets will now receive a percentage of their master's stats and their spell damage and attack power is increased by a percentage of their master's attack power.",
     "Number of stable slots increased.",
   ],

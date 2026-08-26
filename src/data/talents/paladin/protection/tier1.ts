@@ -18,21 +18,21 @@ const tier1 = [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Improved Devotion Aura",
     "spell_holy_devotionaura",
     ["Increases the armor bonus of your Devotion Aura by ", "%."],
     5,
-    [[5, 10, 15, 20, 25]]
+    [[5, 10, 15, 20, 25]],
   ),
   new Talent(
     "Redoubt",
     "ability_defend",
     [
-      "Increases your chance to block by ",
-      "% after being the victim of a critical strike. Lasts 10 sec or 5 blocks.",
+      "Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block chance by ",
+      "%. Lasts 10 sec or 5 blocks.",
     ],
     5,
     [[6, 12, 18, 24, 30]],
@@ -42,7 +42,8 @@ const tier1 = [
     null,
     null,
     null,
-    ["D2"]
+    ["D2"],
+    { isNew: false, isChanged: true, isMoved: false },
   ),
   null,
 ];

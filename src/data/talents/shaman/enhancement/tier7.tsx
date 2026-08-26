@@ -6,7 +6,7 @@ const tier7 = [
     "Stormstrike",
     "spell_holy_sealofmight",
     [
-      "Gives you an extra attack. In addition, the next 2 sources of Nature damage dealt to the target are increased by 20%. Lasts 12 sec.",
+      "Gives you an extra attack. In addition, increases Nature damage dealt to the target by 10%. Lasts 30 sec.",
     ],
     1,
     [[]],
@@ -15,7 +15,9 @@ const tier7 = [
     "Melee range",
     "21% of base mana",
     "Instant",
-    "20 sec cooldown"
+    "16 sec cooldown",
+    null,
+    { isMoved: false, isChanged: true, isNew: false },
   ),
   null,
   null,

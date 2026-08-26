@@ -6,7 +6,7 @@ const tier5 = [
     "spell_holy_serendipity",
     [
       "Critical strikes from your direct damage spells and direct heals have a ",
-      "% chance to heal a party member within 40 yards by 25% of the damage or healing done. Prioritizes party members with low health.",
+      "% chance to heal a party member within 40 yards by 20% of the damage or healing done. Prioritizes party members with low health.",
     ],
     2,
     [[50, 100]],

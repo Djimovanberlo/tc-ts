@@ -13,7 +13,7 @@ const tier4 = [
     "ability_hunter_pet_cat",
     [
       "Increases your melee attack power while in Bear, Dire Bear or Cat Form by ",
-      "% and increases your spell damage and healing ",
+      "% and increases your spell damage and healing by ",
       "% of your attack power.",
     ],
     3,

@@ -1,28 +1,7 @@
 import { Talent } from "../../Classes";
 
 const tier6 = [
-  new Talent(
-    "Overload",
-    "spell_nature_lightningoverload",
-    [
-      "Gives your Lightning Bolt, Chain Lightning, Chain Heal and Healing Wave spells a ",
-      "% chance to cast a second, similar spell on the same target at no additional cost that causes half damage or healing and no threat.",
-    ],
-    3,
-    [[10, 20, 30]],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: true,
-      isChanged: false,
-      isMoved: false,
-    }
-  ),
+  null,
   null,
   new Talent(
     "Lightning Mastery",
@@ -31,20 +10,9 @@ const tier6 = [
       "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by ",
       " sec.",
     ],
-    2,
-    [[0.5, 1]],
+    5,
+    [[0.2, 0.4, 0.6, 0.8, 1]],
     [{ x: 2, y: 2 }],
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    {
-      isNew: false,
-      isChanged: true,
-      isMoved: false,
-    }
   ),
   null,
 ];

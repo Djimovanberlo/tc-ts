@@ -3,7 +3,7 @@ import { Talent } from "../../Classes";
 const tier4 = [
   new Talent(
     "Elemental Impact",
-    "spell_nature_unrelentingstorm",
+    "spell_nature_lightningoverload",
     [
       "Your criticals from direct damage spells have a ",
       "% chance to activate Elemental Focus.",
@@ -21,7 +21,7 @@ const tier4 = [
       isNew: true,
       isChanged: false,
       isMoved: false,
-    }
+    },
   ),
   new Talent(
     "Eye of the Storm",
@@ -31,7 +31,7 @@ const tier4 = [
       "% chance to gain the focused casting effect for 6 sec after being the victim of a melee or ranged critical strike. The focused casting effect prevents you from losing casting time when taking damage.",
     ],
     3,
-    [[33, 66, 100]]
+    [[33, 66, 100]],
   ),
   null,
   new Talent(
@@ -46,7 +46,7 @@ const tier4 = [
     [
       [1, 2],
       [25, 50],
-    ]
+    ],
   ),
 ];
 

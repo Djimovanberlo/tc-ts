@@ -1,6 +1,7 @@
 export default {
   title: "Miscellaneous",
   content: [
+    "A number of abilities that could not be used while inside can now be used while inside.",
     "Hit chance now applies to both spells and physical attacks unless otherwise specified.",
     "Crit chance now applies to both spells and physical attacks unless otherwise specified.",
     "Buff and debuff limit removed.",
